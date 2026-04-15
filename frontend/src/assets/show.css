@@ -1,0 +1,92 @@
+.show-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(26,26,46,0.25);
+}
+
+.show-header-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.show-header-title {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: white;
+}
+
+.show-header-sub {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.8);
+}
+
+.show-badge-wrap {
+  margin-bottom: 0.75rem;
+}
+
+.show-issue-code {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #2c3e50;
+  letter-spacing: 0.05em;
+}
+
+.show-divider {
+  height: 1px;
+  background: #f0f0f0;
+  margin: 1.25rem 0;
+}
+
+.show-section { margin-bottom: 0.5rem; }
+
+.show-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.6rem;
+}
+
+.show-response {
+  font-size: 1rem;
+  color: #2c3e50;
+  line-height: 1.8;
+  padding: 1.25rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+  border-left: 4px solid #667eea;
+}
+
+.show-info-row {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.show-info-item { flex: 1; }
+
+.show-info-value {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #2c3e50;
+  padding: 0.6rem 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-top: 0.4rem;
+}
+
+.show-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #f0f0f0;
+}

@@ -1,0 +1,119 @@
+/* Hero */
+.home-hero {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  color: white;
+  box-shadow: 0 8px 32px rgba(26,26,46,0.25);
+}
+
+.hero-icon {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+  color: white;
+}
+
+.hero-highlight { color: #667eea; }
+
+.hero-subtitle {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.85);
+  max-width: 500px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.hero-actions .btn-secondary {
+  background: rgba(255,255,255,0.1);
+  color: white;
+  border: 2px solid rgba(255,255,255,0.3);
+}
+
+.hero-actions .btn-secondary:hover {
+  background: rgba(255,255,255,0.2);
+  color: white;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #46bfcf 0%, #764ba2 100%);
+  color: white;
+  border: none;
+}
+
+/* Stats */
+.home-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  margin-bottom: 0;
+}
+
+
+.stat-icon { font-size: 1.8rem; margin-bottom: 0.5rem; }
+
+.stat-number {
+  font-size: 2.3rem;
+  font-weight: 800;
+  color: #3498db;
+  margin-bottom: 0.25rem;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: #888;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Features */
+.home-features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.feature-card {
+  padding: 2rem 1.5rem;
+  text-align: center;
+  transition: transform 0.2s;
+  margin-bottom: 0;
+}
+
+.feature-card:hover { transform: translateY(-4px); }
+
+.feature-icon { font-size: 2rem; margin-bottom: 0.75rem; }
+
+.feature-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.feature-desc {
+  font-size: 0.875rem;
+  color: #888;
+  line-height: 1.6;
+}
+
